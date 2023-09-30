@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="732dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="384dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Catedral Metropolitana de Sorocaba Nossa Senhora da Ponte"
+                android:textSize="22sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="285dp"
+                app:srcCompat="@mipmap/cate2" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="196dp"
+                app:srcCompat="@mipmap/cate3" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A Catedral Metropolitana de Sorocaba ou Catedral Metropolitana de Nossa Senhora da Ponte, sede da Arquidiocese de Sorocaba, localiza-se na Praça Coronel Fernando Prestes, no centro da cidade de Sorocaba, Estado de São Paulo, Brasil. Foi construída há mais de 200 anos." />
+
+            <Button
+                android:id="@+id/btn_vermapa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ver Mapa" />
+
+            <Button
+                android:id="@+id/btn_abrirsite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abrir Site" />
+
+            <Button
+                android:id="@+id/btn_telefone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ligar no Telefone" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

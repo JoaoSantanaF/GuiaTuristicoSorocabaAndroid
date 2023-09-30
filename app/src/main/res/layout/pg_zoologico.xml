@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="732dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zoológico"
+                android:gravity="center"
+                android:textSize="22sp"/>
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                app:srcCompat="@mipmap/zoo" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="132dp"
+                app:srcCompat="@mipmap/zoologicosorocaba" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="132dp"
+                app:srcCompat="@mipmap/girafa" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="O Zoológico Municipal de Sorocaba está situado na Vila Hortência, em Sorocaba, São Paulo, e é um ótimo lugar para conhecer diversas espécies de animais em um ambiente educativo e de conservação. Certifique-se de verificar os horários de funcionamento e os preços dos ingressos, pois podem variar ao longo do ano." />
+
+            <Button
+                android:id="@+id/btn_vermapa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ver No Mapa" />
+
+            <Button
+                android:id="@+id/btn_abrirsite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abrir Site" />
+
+            <Button
+                android:id="@+id/btn_telefone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ligar No Telefone" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
